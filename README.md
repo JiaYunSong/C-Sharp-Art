@@ -267,7 +267,7 @@ using (Font font3 = new Font("Arial", 10.0f),	//将实例与代码绑定
 #endregion	//标识着 #region 块的结束
 ```
 
-> **大神用法**
+> **用法**
 ```
 #define  CONNECT(a,b)   a##b	//##粘连两个标识符，只有宏定义中使用(#define)
 int  CONNECT(a,1);			//int a1
@@ -344,8 +344,8 @@ void _IO(){
 ```
 
 > **正则表达式：匹配专用，可以用于输入readline()的整理**
-//Regex 类用于表示一个正则表达式
-//[自己去看吧~](https://www.runoob.com/csharp/csharp-regular-expressions.html)
+> > Regex 类用于表示一个正则表达式
+> > [自己去看吧~](https://www.runoob.com/csharp/csharp-regular-expressions.html)
 
 > **[文件的输入与输出](https://www.runoob.com/csharp/csharp-file-io.html)**
 
